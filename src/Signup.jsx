@@ -13,7 +13,7 @@ const App = () => {
       .catch(() => {
         console.log("errr");
       });
-    console.log("Success:", values);
+    console.log("Success:", name);
   };
 
   const onFinishFailed = (errorInfo) => {
